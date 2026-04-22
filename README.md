@@ -1,9 +1,8 @@
 # Image Restoration under Network Distortions
 
-## Overview
 This project focuses on restoring images degraded by network-related distortions such as compression, blur, and packet loss, along with adversarial noise. A Convolutional Neural Network (CNN) is trained to reconstruct high-quality images from degraded inputs.
 
----
+
 
 ## Objective
 To develop a deep learning model that enhances and restores images affected by:
@@ -11,7 +10,7 @@ To develop a deep learning model that enhances and restores images affected by:
 - Blur and noise distortion
 - Adversarial perturbations
 
----
+
 
 ## Methodology
 1. Load dataset (CIFAR images)
@@ -22,7 +21,7 @@ To develop a deep learning model that enhances and restores images affected by:
    **Degraded Image → Clean Image**
 4. Evaluate performance using loss reduction
 
----
+
 
 ## Tech Stack
 - Python
@@ -31,7 +30,7 @@ To develop a deep learning model that enhances and restores images affected by:
 - OpenCV
 - Matplotlib
 
----
+
 
 ## How to Run
 
